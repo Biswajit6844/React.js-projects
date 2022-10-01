@@ -1,0 +1,52 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  background-color: rgb(104, 104, 104);
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: aliceblue;
+}
+form {
+ 
+  position: fixed;
+  bottom: 500px;
+  right: 30%;
+  left: 30%;
+  top:300px;
+  border-radius: 8px;
+  border: 2px solid rgb(3, 3, 6);
+  color: #000;
+ 
+  
+}
+.form-center {
+  display:flex;
+  justify-content: center;
+}
+
+
+.items {
+  position: fixed;
+  top: 50px;
+  right: 30%;
+  left: 30%;
+  border-radius: 8px;
+}
+
+.form-group {
+  margin-bottom: 0;
+}
+
+.completedTodo {
+  background-color: darkgray;
+  text-decoration: line-through;
+}
